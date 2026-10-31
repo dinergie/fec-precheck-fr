@@ -1,0 +1,59 @@
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <h2 class="oe_slogan">Check your Moroccan accounting against the FEC rules</h2>
+            <h3 class="oe_slogan">36 read-only checks, each one with what to do</h3>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container oe_dark">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <p class="oe_mt32">
+                Opinion no. 24 of the Moroccan National Accounting Council (CNC, June 2023) sets the criteria of accounting software and the list of the fields of the FEC (Fichier des Ecritures Comptables).
+                This module looks at your accounting data and lists what would be missing or inconsistent with these criteria and with the Moroccan chart of accounts (CGNC).
+            </p>
+            <ul>
+                <li><strong>Settings</strong>: ICE and tax identifier of the company, Moroccan chart of accounts, required accounts, account types, VAT accounts, bank journals, open periods, periods not locked.</li>
+                <li><strong>Entries</strong>: balance, numbering with no gap in each journal, chronology, document reference, labels, partner on customer and supplier accounts, accounts outside the CGNC, VAT in the wrong journal, document dates.</li>
+                <li><strong>Invoices</strong>: drafts, lines outside classes 7, 6 and 2, lines without a tax.</li>
+                <li><strong>Partners</strong>: missing or duplicate references, entries on a contact, missing or duplicate ICE, missing country.</li>
+                <li><strong>Bank</strong>: statement lines not reconciled, suspense account not cleared, amounts waiting on a 511 account.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <h2 class="oe_slogan">How it works</h2>
+            <ol>
+                <li>Go to Accounting (Invoicing in Community) &gt; Reporting &gt; Management &gt; FEC Check (Morocco).</li>
+                <li>Choose a period and click Run the check.</li>
+                <li>Open an anomaly to see its examples, what to do, and a button that opens each record in Odoo.</li>
+            </ol>
+            <img class="oe_picture oe_screenshot" src="screenshot_results.png" alt="List of anomalies"/>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container oe_dark">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <h2 class="oe_slogan">Your data stays in your database</h2>
+            <ul>
+                <li>The module only reads your accounting data. It changes no entry, partner, account or setting.</li>
+                <li>It sends nothing outside your database.</li>
+                <li>It needs no activation key and no external service.</li>
+                <li>Results are stored in your database, and each company only sees its own.</li>
+            </ul>
+            <p>
+                The module does not generate the FEC file, and it does not certify that Odoo complies with opinion no. 24. The check helps you prepare your accounting. It does not replace the review of your accountant.
+            </p>
+            <p>The periods of the opinion are read as months. Accounts are compared with the headings of the chart of the Odoo Morocco localization, plus class 8.</p>
+            <p>Tested on Odoo Community 18.0 and 19.0, not yet on Enterprise. For Odoo.sh and your own servers. Not available on Odoo Online.</p>
+        </div>
+    </div>
+</section>

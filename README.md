@@ -1,12 +1,17 @@
-# FEC Pre-Export Check (France)
+# Odoo apps
 
-Free Odoo module that checks French accounting data before the export of the FEC (Fichier des Écritures Comptables).
+Free Odoo modules that check accounting data before the FEC (Fichier des Écritures Comptables).
 
-It runs 37 read-only checks on settings, entries, invoices, partners and bank, and tells what to do for each anomaly.
-It changes no accounting data, sends nothing outside the database and needs no activation key.
+They run read-only checks on settings, entries, invoices, partners and bank, and tell what to do for each anomaly.
+They change no accounting data, send nothing outside the database and need no activation key.
+
+| Module | Country | Checks | Rules |
+|---|---|---|---|
+| `fec_precheck_fr` | France | 37 | What the FEC export of Odoo really writes, French general chart of accounts |
+| `fec_check_ma` | Morocco | 36 | CNC opinion no. 24 (June 2023), CGNC |
 
 - Branches: `18.0`, `19.0`
 - License: LGPL-3
-- Author: DINERGIE
+- Authors: DINERGIE (France), Cabinet EL JOUAIDI (Morocco)
 
-The module is in `fec_precheck_fr/`. It works on Odoo.sh and on your own servers, not on Odoo Online.
+They work on Odoo.sh and on your own servers, not on Odoo Online.

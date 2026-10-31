@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <record id="rule_fec_check_ma_run_company" model="ir.rule">
+        <field name="name">FEC check (Morocco): multi-company</field>
+        <field name="model_id" ref="model_fec_check_ma_run"/>
+        <field name="domain_force">[('company_id', 'in', company_ids)]</field>
+    </record>
+    <record id="rule_fec_check_ma_finding_company" model="ir.rule">
+        <field name="name">FEC anomaly (Morocco): multi-company</field>
+        <field name="model_id" ref="model_fec_check_ma_finding"/>
+        <field name="domain_force">[('company_id', 'in', company_ids)]</field>
+    </record>
+    <record id="rule_fec_check_ma_sample_company" model="ir.rule">
+        <field name="name">FEC anomaly example (Morocco): multi-company</field>
+        <field name="model_id" ref="model_fec_check_ma_sample"/>
+        <field name="domain_force">[('company_id', 'in', company_ids)]</field>
+    </record>
+</odoo>

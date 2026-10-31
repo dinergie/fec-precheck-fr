@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="fec_check_ma_finding_form" model="ir.ui.view">
+        <field name="name">fec.check.ma.finding.form</field>
+        <field name="model">fec.check.ma.finding</field>
+        <field name="arch" type="xml">
+            <form string="Anomaly" create="0" edit="0" delete="0">
+                <sheet>
+                    <div class="oe_title">
+                        <h2><field name="title" readonly="1"/></h2>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="severity"/>
+                            <field name="section"/>
+                        </group>
+                        <group>
+                            <field name="count"/>
+                            <field name="amount" invisible="amount == 0"/>
+                        </group>
+                    </group>
+                    <group string="What to do">
+                        <field name="advice" nolabel="1" colspan="2" readonly="1"/>
+                    </group>
+                    <group string="Examples">
+                        <field name="sample_ids" nolabel="1" colspan="2">
+                            <list>
+                                <field name="label"/>
+                                <field name="value"/>
+                                <field name="can_open" column_invisible="1"/>
+                                <button name="action_open" type="object" string="Open" icon="fa-external-link" invisible="not can_open"/>
+                            </list>
+                        </field>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="fec_check_ma_run_list" model="ir.ui.view">
+        <field name="name">fec.check.ma.run.list</field>
+        <field name="model">fec.check.ma.run</field>
+        <field name="arch" type="xml">
+            <list string="FEC checks (Morocco)">
+                <field name="company_id" groups="base.group_multi_company"/>
+                <field name="date_from"/>
+                <field name="date_to"/>
+                <field name="run_date"/>
+                <field name="line_count"/>
+                <field name="error_count"/>
+                <field name="warning_count"/>
+                <field name="state" widget="badge"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="fec_check_ma_run_form" model="ir.ui.view">
+        <field name="name">fec.check.ma.run.form</field>
+        <field name="model">fec.check.ma.run</field>
+        <field name="arch" type="xml">
+            <form string="FEC check (Morocco)">
+                <header>
+                    <button name="action_run" type="object" string="Run the check" class="btn-primary"/>
+                    <field name="state" widget="statusbar"/>
+                </header>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="company_id" groups="base.group_multi_company"/>
+                            <field name="date_from"/>
+                            <field name="date_to"/>
+                        </group>
+                        <group invisible="state != 'done'">
+                            <field name="run_date"/>
+                            <field name="line_count"/>
+                            <field name="error_count"/>
+                            <field name="warning_count"/>
+                            <field name="passed_count"/>
+                        </group>
+                    </group>
+                    <div class="alert alert-success" role="status" invisible="state != 'done' or error_count or warning_count">
+                        No anomaly found by these checks.
+                    </div>
+                    <field name="finding_ids" invisible="state != 'done'" readonly="1">
+                        <list create="0" delete="0">
+                            <field name="section"/>
+                            <field name="severity" widget="badge" decoration-danger="severity == 'error'" decoration-warning="severity == 'warning'" decoration-info="severity == 'info'"/>
+                            <field name="title"/>
+                            <field name="count"/>
+                            <field name="amount"/>
+                        </list>
+                    </field>
+                    <p class="text-muted small mt-3">
+                        This check reads your accounting data and does not change it. It does not replace a review by your accountant, and it does not certify the compliance of the software.
+                    </p>
+                    <p class="text-muted small">
+                        Published by Cabinet EL JOUAIDI, accounting and advisory firm in Casablanca - <a href="https://www.eljouaidi.com" target="_blank" rel="noopener">www.eljouaidi.com</a>
+                    </p>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_fec_check_ma" model="ir.actions.act_window">
+        <field name="name">FEC Check (Morocco)</field>
+        <field name="res_model">fec.check.ma.run</field>
+        <field name="view_mode">list,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">Check your accounting against CNC opinion no. 24</p>
+            <p>Choose a period and run the check: it lists the anomalies and what to do. Your data is read, never changed.</p>
+        </field>
+    </record>
+
+    <menuitem id="menu_fec_check_ma" name="FEC Check (Morocco)" parent="account.account_reports_management_menu" action="action_fec_check_ma" sequence="91"/>
+</odoo>
