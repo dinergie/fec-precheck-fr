@@ -1,0 +1,63 @@
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <h2 class="oe_slogan">Check your French accounting before exporting the FEC</h2>
+            <h3 class="oe_slogan">37 read-only checks, each one with what to do</h3>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container oe_dark">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <p class="oe_mt32">
+                The FEC (Fichier des Écritures Comptables) is the accounting file French companies must hand over during a tax audit.
+                This module looks at your accounting data before you export it, and lists what would be missing or inconsistent in the file.
+                The rules follow what the FEC export of Odoo really writes.
+            </p>
+            <ul>
+                <li><strong>Settings</strong>: VAT number used for the SIREN of the file name, French chart of accounts, required accounts, account types, tax accounts, bank journals, lock date.</li>
+                <li><strong>Entries</strong>: balance, numbering, document reference, labels, partner on customer and supplier accounts, accounts outside the official chart, VAT in the wrong journal, document dates.</li>
+                <li><strong>Invoices</strong>: drafts, lines outside classes 7, 6 and 2, lines without a tax, numbering gaps, EU sales and purchases.</li>
+                <li><strong>Partners</strong>: missing or duplicate references, entries on a contact, duplicate VAT numbers, missing country.</li>
+                <li><strong>Bank</strong>: statement lines not reconciled, suspense account not cleared, outstanding payments.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <h2 class="oe_slogan">How it works</h2>
+            <ol>
+                <li>Go to Accounting (Invoicing in Community) &gt; Reporting &gt; FEC Pre-Export Check.</li>
+                <li>Choose a period and click Run the check.</li>
+                <li>Open an anomaly to see its examples, what to do, and a button that opens each record in Odoo.</li>
+            </ol>
+            <img class="oe_picture oe_screenshot" src="screenshot_results.png" alt="List of anomalies"/>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container oe_dark">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <h2 class="oe_slogan">Your data stays in your database</h2>
+            <ul>
+                <li>The module only reads your accounting data. It changes no entry, partner, account or setting.</li>
+                <li>It sends nothing outside your database.</li>
+                <li>It needs no activation key and no external service.</li>
+                <li>Results are stored in your database, and each company only sees its own.</li>
+            </ul>
+            <p>
+                The official chart of accounts used is the French general chart of accounts, ANC regulation 2014-03, version of 1 January 2026.
+                Associations, works councils and co-ownerships follow other official charts: some of their accounts may be reported.
+            </p>
+            <p>
+                The check helps you prepare the file. It does not replace the review of your accountant, and it does not validate the format of the file itself.
+            </p>
+            <p>Works with Odoo Community and Enterprise, on Odoo.sh and on your own servers. Not available on Odoo Online.</p>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,10 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_fec_precheck_run,fec.precheck.run,model_fec_precheck_run,account.group_account_readonly,1,1,1,1
+access_fec_precheck_finding,fec.precheck.finding,model_fec_precheck_finding,account.group_account_readonly,1,1,1,1
+access_fec_precheck_sample,fec.precheck.sample,model_fec_precheck_sample,account.group_account_readonly,1,1,1,1
+access_fec_precheck_run_user,fec.precheck.run user,model_fec_precheck_run,account.group_account_user,1,1,1,1
+access_fec_precheck_finding_user,fec.precheck.finding user,model_fec_precheck_finding,account.group_account_user,1,1,1,1
+access_fec_precheck_sample_user,fec.precheck.sample user,model_fec_precheck_sample,account.group_account_user,1,1,1,1
+access_fec_precheck_run_manager,fec.precheck.run manager,model_fec_precheck_run,account.group_account_manager,1,1,1,1
+access_fec_precheck_finding_manager,fec.precheck.finding manager,model_fec_precheck_finding,account.group_account_manager,1,1,1,1
+access_fec_precheck_sample_manager,fec.precheck.sample manager,model_fec_precheck_sample,account.group_account_manager,1,1,1,1

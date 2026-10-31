@@ -1,0 +1,919 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* fec_precheck_fr
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-31 11:47+0000\n"
+"PO-Revision-Date: 2026-10-31 11:47+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "A draft is not part of the official FEC. Post or delete these entries."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"A draft is not part of the official FEC. Post or delete these invoices."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"A purchase carries deductible VAT (4456), except for a reverse charge. Check"
+" the tax used."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"A purchase is booked in class 6, or class 2 for a fixed asset. Fix the "
+"account of the line or of the product."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "A sale carries collected VAT (4457). Check the tax used."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"A sale is booked in class 7. Fix the account of the line or of the product."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"A supply to a taxable person of the EU is in principle without French VAT: "
+"check the fiscal position of the customer."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Account outside the general chart of accounts"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Account required for the FEC missing from the chart"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Account type inconsistent with its number"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Active tax linked to a wrong VAT account"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_finding__amount
+msgid "Amount"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"An intra-community purchase is self-assessed (4452 / 445662): check the "
+"fiscal position of the vendor."
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_run__finding_ids
+msgid "Anomalies"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_sample__finding_id
+#: model_terms:ir.ui.view,arch_db:fec_precheck_fr.fec_precheck_finding_form
+msgid "Anomaly"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model,name:fec_precheck_fr.model_fec_precheck_finding
+msgid "Anomaly of a FEC pre-export check"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"Apart from a VAT return, a VAT line comes with a base. Check the entry."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Archive the tax if it is no longer used."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"As long as a line is not reconciled, it stays on the suspense account. "
+"Reconcile it."
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields.selection,name:fec_precheck_fr.selection__fec_precheck_finding__section__bank
+msgid "Bank"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Bank or cash journal linked to a wrong account"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Bank statement lines not reconciled"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Banks"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_sample__can_open
+msgid "Can Open"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_finding__title
+msgid "Check"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Check the invoice date and the accounting date."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Check the period."
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model_terms:ir.actions.act_window,help:fec_precheck_fr.action_fec_precheck
+msgid "Check your accounting before exporting the FEC"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_run__run_date
+msgid "Checked on"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_run__passed_count
+msgid "Checks passed"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model_terms:ir.actions.act_window,help:fec_precheck_fr.action_fec_precheck
+msgid ""
+"Choose a period and run the check: it lists the anomalies and what to do. "
+"Your data is read, never changed."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"Clear the suspense account by reconciling the statement lines concerned."
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_finding__code
+msgid "Code"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Collected VAT"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Collected VAT in the purchase journal"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "CompAuxNum would be empty in the FEC. Set the partner on the line."
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_finding__company_id
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_run__company_id
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_sample__company_id
+msgid "Company"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Create the account in Accounting > Configuration > Chart of Accounts."
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_finding__create_uid
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_run__create_uid
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_sample__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_finding__create_date
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_run__create_date
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_sample__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Customer or supplier account line without a partner"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Customers"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Deductible VAT"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Deductible VAT in the sales journal"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_run__display_label
+msgid "Display Label"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_finding__display_name
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_run__display_name
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_sample__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Document date after the accounting date, or more than one year away"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields.selection,name:fec_precheck_fr.selection__fec_precheck_run__state__done
+msgid "Done"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Draft"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Draft invoices in the period"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Draft journal entries in the period"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "EU company without a VAT number"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"EcritureNum would be empty or \"/\" in the FEC: the journal must assign a "
+"sequence."
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_run__date_to
+msgid "End Date"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields.selection,name:fec_precheck_fr.selection__fec_precheck_finding__section__ledger
+msgid "Entries"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"Entries before the lock date can not be changed until it is lifted. Note: "
+"the official FEC export sets this lock itself at the end of the period, "
+"unless the \"Test file\" box is ticked."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Entries on a contact rather than on its company"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Entry without a document reference"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields.selection,name:fec_precheck_fr.selection__fec_precheck_finding__severity__error
+msgid "Error"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_run__error_count
+msgid "Errors"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model,name:fec_precheck_fr.model_fec_precheck_sample
+msgid "Example of an anomaly"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_finding__sample_ids
+#: model_terms:ir.ui.view,arch_db:fec_precheck_fr.fec_precheck_finding_form
+msgid "Examples"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.actions.act_window,name:fec_precheck_fr.action_fec_precheck
+#: model:ir.ui.menu,name:fec_precheck_fr.menu_fec_precheck
+msgid "FEC Pre-Export Check"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model,name:fec_precheck_fr.model_fec_precheck_run
+#: model_terms:ir.ui.view,arch_db:fec_precheck_fr.fec_precheck_run_form
+msgid "FEC pre-export check"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model_terms:ir.ui.view,arch_db:fec_precheck_fr.fec_precheck_run_list
+msgid "FEC pre-export checks"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"Fix the type on the account form: it decides whether the subledger account "
+"appears in the FEC, and the balance sheet classification."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Gap in the numbering"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_finding__id
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_run__id
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_sample__id
+msgid "ID"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"In the distribution of the tax, use a 4457 account for sales and a 4456 "
+"account for purchases."
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields.selection,name:fec_precheck_fr.selection__fec_precheck_finding__severity__info
+msgid "Information"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"Install the French localization and select the France chart of accounts in "
+"the accounting settings."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Invoice line without a tax"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Invoice numbering must be continuous. Identify the missing document."
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields.selection,name:fec_precheck_fr.selection__fec_precheck_finding__section__invoices
+msgid "Invoices"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_sample__label
+msgid "Item"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_finding__write_uid
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_run__write_uid
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_sample__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_finding__write_date
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_run__write_date
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_sample__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Line without a label"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_run__line_count
+msgid "Lines checked"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Lock date for all entries"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "No account of this type"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model_terms:ir.ui.view,arch_db:fec_precheck_fr.fec_precheck_run_form
+msgid "No anomaly found by these checks."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "No entry in this period"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "No posted entry in this period"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_finding__count
+msgid "Number"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Obsolete VAT rate still active"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"Odoo carries forward the result of previous years to the account of type "
+"\"Current Year Earnings\", created as 999999 by the French chart: this "
+"number then appears in the opening lines of the FEC. Renumber it in class 1 "
+"(120 or 129)."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"Odoo takes the SIREN of the FEC file name from the VAT number. Fill it in on"
+" the company form."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"Odoo writes \"-\" in PieceRef when the reference is empty. Fill in the "
+"Reference field with the number of the document."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Odoo writes \"/\" in EcritureLib. Fill in the label of the line."
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model_terms:ir.ui.view,arch_db:fec_precheck_fr.fec_precheck_finding_form
+msgid "Open"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Partner without a country"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Partner without a reference"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields.selection,name:fec_precheck_fr.selection__fec_precheck_finding__section__partners
+msgid "Partners"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Payments waiting for reconciliation"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Period locked in Odoo"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Posted entry without a number"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Probably a duplicate: merge the partners."
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model_terms:ir.ui.view,arch_db:fec_precheck_fr.fec_precheck_run_form
+msgid "Published by DINERGIE, chartered accountants in Paris -"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Purchase from an EU vendor without reverse charge"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_sample__res_id
+msgid "Res"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_sample__res_model
+msgid "Res Model"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Retained earnings account outside the official chart"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_finding__run_id
+msgid "Run"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model_terms:ir.ui.view,arch_db:fec_precheck_fr.fec_precheck_run_form
+msgid "Run the check"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Sale to an EU customer with French VAT"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Sales"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Sales invoice line outside class 7"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Same VAT number on several partners"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Same reference on several partners"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_finding__section
+msgid "Section"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Set the applicable tax, even at 0%: Odoo uses it for the VAT return."
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields.selection,name:fec_precheck_fr.selection__fec_precheck_finding__section__settings
+msgid "Settings"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_finding__severity
+msgid "Severity"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_finding__severity_rank
+msgid "Severity Rank"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_run__date_from
+msgid "Start Date"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_run__state
+msgid "Status"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Suppliers"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Suspense account not cleared at the end of the period"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "The company does not use the French chart of accounts"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"The intra-community VAT number supports the exemption or the reverse charge."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"The journal must point to a class 5 account (512 for a bank, 53 for cash)."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"The number does not belong to any account of the French general chart of "
+"accounts (ANC regulation 2014-03). Renumber the account."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"The same company would have several subledger accounts. Book the entries on "
+"the company."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "The start date must be before the end date."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"These payments stay on a transit account: reconcile them with the bank "
+"statement."
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model_terms:ir.ui.view,arch_db:fec_precheck_fr.fec_precheck_run_form
+msgid ""
+"This check reads your accounting data and does not change it. It does not "
+"replace a review by your accountant."
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_run__warning_count
+#: model:ir.model.fields.selection,name:fec_precheck_fr.selection__fec_precheck_finding__severity__warning
+msgid "To review"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields.selection,name:fec_precheck_fr.selection__fec_precheck_run__state__draft
+msgid "To run"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"Total debits must equal total credits: reset the entry to draft to fix it."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"Two partners would share the same subledger account. Give each partner its "
+"own reference."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Unbalanced entry"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "VAT entry without an expense, income or fixed asset account"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "VAT number of the company missing or invalid"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_sample__value
+msgid "Value"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Vendor bill line outside classes 6 and 2"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model:ir.model.fields,field_description:fec_precheck_fr.field_fec_precheck_finding__advice
+#: model_terms:ir.ui.view,arch_db:fec_precheck_fr.fec_precheck_finding_form
+msgid "What to do"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "Without a country, Odoo can not determine the VAT treatment."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid ""
+"Without a reference, CompAuxNum is the technical id of Odoo. Fill in the "
+"Reference field of the partner."
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "empty"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "expense"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "income"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "no account"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "other than payable"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "other than receivable"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "payable"
+msgstr ""
+
+#. module: fec_precheck_fr
+#. odoo-python
+#: code:addons/fec_precheck_fr/models/fec_precheck.py:0
+msgid "receivable"
+msgstr ""
+
+#. module: fec_precheck_fr
+#: model_terms:ir.ui.view,arch_db:fec_precheck_fr.fec_precheck_run_form
+msgid "www.dinergie.com"
+msgstr ""
