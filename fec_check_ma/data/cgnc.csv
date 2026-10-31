@@ -1,0 +1,111 @@
+111;Capital social ou personnel
+112;Primes d'émission, de fusion et d'apport
+113;Écarts de réévaluation
+114;Réserve légale
+115;Autres réserves
+116;Report à nouveau
+118;Résultats nets en instance d'affectation
+119;Résultat net de l'exercice
+131;Subventions d'investissement
+135;Provisions réglementées
+141;Emprunts obligataires
+148;Autres dettes de financement
+151;Provisions pour risques
+155;Provisions pour charges
+160;Comptes de liaison des établissements et succursales
+171;Augmentation des créances immobilisées
+172;Diminution des dettes de financement
+211;Frais préliminaires
+212;Charges à répartir sur plusieurs exercices
+213;Primes de remboursement des obligations
+221;Immobilisation en recherche et développement
+222;Brevets, marques, droits et valeurs similaires
+223;Fonds commercial
+228;Autres immobilisations incorporelles
+231;Terrains
+232;Constructions
+233;Installations techniques, matériel et outillage
+234;Matériel de transport
+235;Mobilier, matériel de bureau, aménagements divers
+238;Autres immobilisations corporelles
+239;Immobilisations corporelles en cours
+241;Prêts immobilisés
+248;Autres créances financières
+251;Titres de participation
+258;Autres titres immobilisés
+271;Diminution des créances immobilisées
+272;Augmentation des dettes de financement
+281;Amortissements des non-valeurs
+282;Amortissements des immobilisations incorporelles
+283;Amortissements des immobilisations corporelles
+292;Provisions pour dépréciation des immobilisations incorporelles
+293;Provisions pour dépréciation des immobilisations corporelles
+294;Provisions pour dépréciation des immobilisations financières
+295;Provisions pour dépréciation des titres de participation
+311;Marchandises
+312;Matières et fournitures consommables
+313;Produits en cours
+314;Produits intermédiaires et produits résiduels
+315;Produits finis
+341;Fournisseurs débiteurs, avances et acomptes
+342;Clients et comptes rattachés
+343;Personnel - Débiteur
+345;État - Débiteur
+346;Comptes d'associés - Débiteurs
+348;Autres débiteurs
+349;Comptes de régularisation - Actif
+350;Titres et valeurs de placement
+370;Écarts de conversion - Actif (Eléments circulants)
+391;Provisions pour dépréciation des stocks
+394;Provisions pour dépréciation des créances de l'actif circulant
+395;Provisions pour dépréciation des titres et valeurs de placement
+441;Fournisseurs et comptes rattachés
+442;Clients créditeurs, avances et acomptes
+443;Personnel - Créditeur
+444;Organismes sociaux
+445;État - Créditeur
+446;Comptes d'associés - Créditeurs
+448;Autres créanciers
+449;Comptes de régularisation - Passif
+450;Autres provisions pour risques et charges
+470;Écarts de conversion - Passif (Eléments circulants)
+511;Chèques et valeurs à encaisser
+514;Banques, Trésorerie Générale et Chèques Postaux débiteurs
+516;Caisses, régies d'avances et accréditifs
+552;Crédits d'escompte
+553;Crédits de trésorerie
+554;Banques (Soldes créditeurs)
+590;Provisions pour dépréciation des comptes de trésorerie
+611;Achats revendus de marchandises
+612;Achats consommés de matières et fournitures
+613;Autres charges externes
+614;Etudes générales
+616;Impôts et taxes
+617;Charges de personnel
+618;Autres charges d'exploitation
+619;Dotations d'exploitation
+631;Charges d'intérêts
+633;Pertes de change
+638;Autres charges financières
+639;Dotations financières
+651;Valeurs nettes d'amortissements des immobilisations cédées
+656;Subventions accordées
+658;Autres charges non courantes
+659;Dotations non courantes
+670;Impôts sur les résultats
+711;Ventes de marchandises
+712;Ventes de biens et services produits
+713;Variations des stocks de produits
+714;Immobilisations produites par l'entreprise pour elle-même
+716;Subventions d'exploitation
+718;Autres produits d'exploitation
+719;Reprises d'exploitation; Transferts de charges
+732;Produits des titres de participation et des autres titres immobilisés
+733;Gains de change
+738;Intérêts et autres produits financiers
+739;Reprises financières; Transferts de charges
+751;Produits des cessions d'immobilisations
+756;Subventions d'équilibre
+757;Reprises sur subventions d'investissement
+758;Autres produits non courants
+759;Reprises non courantes; Transferts de charges

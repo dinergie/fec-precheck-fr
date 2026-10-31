@@ -1,0 +1,972 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* fec_check_ma
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-31 14:22+0000\n"
+"PO-Revision-Date: 2026-10-31 14:22+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"A draft is not a recorded entry. Post or delete these entries before closing"
+" the period."
+msgstr ""
+"Un brouillon n'est pas une écriture enregistrée. Comptabilisez ou supprimez "
+"ces écritures avant de clôturer la période."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"A draft is not a recorded entry. Post or delete these invoices before "
+"closing the period."
+msgstr ""
+"Un brouillon n'est pas une écriture enregistrée. Comptabilisez ou supprimez "
+"ces factures avant de clôturer la période."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"A purchase carries recoverable VAT (3455), except for a reverse charge. "
+"Check the tax used."
+msgstr ""
+"Un achat porte de la TVA récupérable (3455), sauf autoliquidation. Vérifiez "
+"la taxe utilisée."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"A purchase is booked in class 6, or class 2 for a fixed asset. Fix the "
+"account of the line or of the product."
+msgstr ""
+"Une ligne d'achat se comptabilise en classe 6, ou en classe 2 pour une "
+"immobilisation. Corrigez le compte de la ligne ou celui du produit."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "A sale carries invoiced VAT (4455). Check the tax used."
+msgstr "Une vente porte de la TVA facturée (4455). Vérifiez la taxe utilisée."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"A sale is booked in class 7. Fix the account of the line or of the product."
+msgstr ""
+"Une ligne de vente se comptabilise en classe 7. Corrigez le compte de la "
+"ligne ou celui du produit."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Account outside the CGNC"
+msgstr "Compte hors CGNC"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Account type inconsistent with its number"
+msgstr "Type de compte incohérent avec son numéro"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Active tax linked to a wrong VAT account"
+msgstr "Taxe active rattachée à un mauvais compte de TVA"
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_finding__amount
+msgid "Amount"
+msgstr "Montant"
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_run__finding_ids
+msgid "Anomalies"
+msgstr "Anomalies"
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_sample__finding_id
+#: model_terms:ir.ui.view,arch_db:fec_check_ma.fec_check_ma_finding_form
+msgid "Anomaly"
+msgstr "Anomalie"
+
+#. module: fec_check_ma
+#: model:ir.model,name:fec_check_ma.model_fec_check_ma_finding
+msgid "Anomaly of a FEC check (Morocco)"
+msgstr "Anomalie d'un contrôle du FEC (Maroc)"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"Apart from a VAT return, a VAT line comes with a base. Check the entry."
+msgstr ""
+"Hors déclaration de TVA, une ligne de TVA accompagne une base. Vérifiez "
+"l'écriture."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"As long as a line is not reconciled, it stays on the suspense account. "
+"Reconcile it."
+msgstr ""
+"Tant qu'une ligne n'est pas rapprochée, elle reste sur le compte d'attente. "
+"Rapprochez-la."
+
+#. module: fec_check_ma
+#: model:ir.model.fields.selection,name:fec_check_ma.selection__fec_check_ma_finding__section__bank
+msgid "Bank"
+msgstr "Banque"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Bank or cash journal linked to a wrong account"
+msgstr "Journal de banque ou de caisse mal rattaché"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Bank statement lines not reconciled"
+msgstr "Lignes de relevé non rapprochées"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Banks"
+msgstr "Banques"
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_sample__can_open
+msgid "Can Open"
+msgstr ""
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_finding__title
+msgid "Check"
+msgstr "Contrôle"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Check the invoice date and the accounting date."
+msgstr "Vérifiez la date de facture et la date comptable."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Check the period."
+msgstr "Vérifiez la période demandée."
+
+#. module: fec_check_ma
+#: model_terms:ir.actions.act_window,help:fec_check_ma.action_fec_check_ma
+msgid "Check your accounting against CNC opinion no. 24"
+msgstr "Contrôlez votre comptabilité au regard de l'avis n° 24 du CNC"
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_run__run_date
+msgid "Checked on"
+msgstr "Contrôlé le"
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_run__passed_count
+msgid "Checks passed"
+msgstr "Contrôles sans anomalie"
+
+#. module: fec_check_ma
+#: model_terms:ir.actions.act_window,help:fec_check_ma.action_fec_check_ma
+msgid ""
+"Choose a period and run the check: it lists the anomalies and what to do. "
+"Your data is read, never changed."
+msgstr ""
+"Choisissez une période et lancez le contrôle : il liste les anomalies et ce "
+"qu'il faut faire. Vos données sont lues, jamais modifiées."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"Clear the suspense account by reconciling the statement lines concerned."
+msgstr ""
+"Soldez le compte d'attente en rapprochant les lignes de relevé concernées."
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_finding__code
+msgid "Code"
+msgstr "Code"
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_finding__company_id
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_run__company_id
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_sample__company_id
+msgid "Company"
+msgstr "Société"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Create the account in Accounting > Configuration > Chart of Accounts."
+msgstr "Créez le compte dans Comptabilité > Configuration > Plan comptable."
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_finding__create_uid
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_run__create_uid
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_sample__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_finding__create_date
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_run__create_date
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_sample__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Customer or supplier account line without a partner"
+msgstr "Ligne de compte client ou fournisseur sans tiers"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Customers"
+msgstr "Clients"
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_run__display_label
+msgid "Display Label"
+msgstr ""
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_finding__display_name
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_run__display_name
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_sample__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Document date after the accounting date, or more than one year away"
+msgstr ""
+"Date de pièce postérieure à la date comptable ou éloignée de plus d'un an"
+
+#. module: fec_check_ma
+#: model:ir.model.fields.selection,name:fec_check_ma.selection__fec_check_ma_run__state__done
+msgid "Done"
+msgstr "Terminé"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Draft"
+msgstr "Brouillon"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Draft invoices in the period"
+msgstr "Factures en brouillon sur la période"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Draft journal entries in the period"
+msgstr "Écritures diverses en brouillon sur la période"
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_run__date_to
+msgid "End Date"
+msgstr "Date de fin"
+
+#. module: fec_check_ma
+#: model:ir.model.fields.selection,name:fec_check_ma.selection__fec_check_ma_finding__section__ledger
+msgid "Entries"
+msgstr "Écritures"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Entries on a contact rather than on its company"
+msgstr "Écritures sur un contact plutôt que sur sa société"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Entry dated before the entry numbered just before it"
+msgstr "Écriture datée avant celle qui la précède dans la numérotation"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Entry without a document reference"
+msgstr "Écriture sans référence de pièce"
+
+#. module: fec_check_ma
+#: model:ir.model.fields.selection,name:fec_check_ma.selection__fec_check_ma_finding__severity__error
+msgid "Error"
+msgstr "Erreur"
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_run__error_count
+msgid "Errors"
+msgstr "Erreurs"
+
+#. module: fec_check_ma
+#: model:ir.model,name:fec_check_ma.model_fec_check_ma_sample
+msgid "Example of an anomaly (Morocco)"
+msgstr "Exemple d'anomalie (Maroc)"
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_finding__sample_ids
+#: model_terms:ir.ui.view,arch_db:fec_check_ma.fec_check_ma_finding_form
+msgid "Examples"
+msgstr "Exemples"
+
+#. module: fec_check_ma
+#: model:ir.actions.act_window,name:fec_check_ma.action_fec_check_ma
+#: model:ir.ui.menu,name:fec_check_ma.menu_fec_check_ma
+msgid "FEC Check (Morocco)"
+msgstr "Contrôle du FEC (Maroc)"
+
+#. module: fec_check_ma
+#: model:ir.model,name:fec_check_ma.model_fec_check_ma_run
+#: model_terms:ir.ui.view,arch_db:fec_check_ma.fec_check_ma_run_form
+msgid "FEC check (Morocco)"
+msgstr "Contrôle du FEC (Maroc)"
+
+#. module: fec_check_ma
+#: model_terms:ir.ui.view,arch_db:fec_check_ma.fec_check_ma_run_list
+msgid "FEC checks (Morocco)"
+msgstr "Contrôles du FEC (Maroc)"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Fill in the tax identifier (IF) on the company form."
+msgstr "Renseignez l'identifiant fiscal (IF) dans la fiche de la société."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"Fix the type on the account form: it decides whether the account is followed"
+" by partner, and the balance sheet classification."
+msgstr ""
+"Corrigez le type dans la fiche du compte : il détermine le suivi par tiers "
+"et le classement au bilan."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Gap in the numbering of a journal"
+msgstr "Trou dans la numérotation d'un journal"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "ICE of the company missing or invalid"
+msgstr "ICE de la société absent ou incorrect"
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_finding__id
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_run__id
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_sample__id
+msgid "ID"
+msgstr ""
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"In the distribution of the tax, use a 4455 account for sales and a 3455 "
+"account for purchases."
+msgstr ""
+"Dans la répartition de la taxe, utilisez un compte 4455 pour les ventes, "
+"3455 pour les achats."
+
+#. module: fec_check_ma
+#: model:ir.model.fields.selection,name:fec_check_ma.selection__fec_check_ma_finding__severity__info
+msgid "Information"
+msgstr "Information"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"Install the Morocco localization and select the Morocco chart of accounts in"
+" the accounting settings."
+msgstr ""
+"Installez la localisation Maroc et choisissez le plan « Maroc » dans la "
+"configuration de la comptabilité."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Invoice line without a tax"
+msgstr "Ligne de facture sans taxe"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Invoiced VAT"
+msgstr "TVA facturée"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Invoiced VAT in the purchase journal"
+msgstr "TVA facturée dans le journal des achats"
+
+#. module: fec_check_ma
+#: model:ir.model.fields.selection,name:fec_check_ma.selection__fec_check_ma_finding__section__invoices
+msgid "Invoices"
+msgstr "Factures"
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_sample__label
+msgid "Item"
+msgstr "Élément"
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_finding__write_uid
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_run__write_uid
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_sample__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_finding__write_date
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_run__write_date
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_sample__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"Libelle_Ecriture would be empty in the FEC. Fill in the label of the line."
+msgstr ""
+"Libelle_Ecriture serait vide dans le FEC. Renseignez le libellé de la ligne."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Line without a label"
+msgstr "Ligne sans libellé"
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_run__line_count
+msgid "Lines checked"
+msgstr "Lignes contrôlées"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Lock date for all entries"
+msgstr "Verrouillage de toutes les écritures"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "More than two periods open"
+msgstr "Plus de deux périodes ouvertes"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Moroccan company without a valid ICE"
+msgstr "Société marocaine sans ICE valide"
+
+#. module: fec_check_ma
+#: model_terms:ir.ui.view,arch_db:fec_check_ma.fec_check_ma_run_form
+msgid "No anomaly found by these checks."
+msgstr "Aucune anomalie trouvée par ces contrôles."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "No entry in this period"
+msgstr "Période sans écriture"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "No posted entry in this period"
+msgstr "Aucune écriture comptabilisée sur la période"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"Num_Compte_Aux needs a stable code. Fill in the Reference field of the "
+"partner."
+msgstr ""
+"Num_Compte_Aux demande un code stable. Renseignez le champ Référence de la "
+"fiche."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"Num_Ecriture would be empty in the FEC: the journal must assign a sequence."
+msgstr ""
+"Num_Ecriture serait vide dans le FEC : le journal doit attribuer une "
+"séquence."
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_finding__count
+msgid "Number"
+msgstr "Nombre"
+
+#. module: fec_check_ma
+#: model_terms:ir.ui.view,arch_db:fec_check_ma.fec_check_ma_finding_form
+msgid "Open"
+msgstr "Ouvrir"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"Opinion no. 24 allows only the current period and the previous one to be "
+"open. Read as months, the entries before the previous month should be "
+"locked: set the lock date."
+msgstr ""
+"L'avis n° 24 n'admet que la période en cours et la précédente ouvertes. En "
+"lisant les périodes comme des mois, les écritures antérieures au mois "
+"précédent devraient être verrouillées : posez la date de verrouillage."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"Opinion no. 24 requires a numbering with no gap and no duplicate in each "
+"journal. Identify the missing entry."
+msgstr ""
+"L'avis n° 24 exige une numérotation sans trou ni doublon dans chaque "
+"journal. Identifiez l'écriture manquante."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"Opinion no. 24 requires the reference of the supporting document on each "
+"entry (Ref_Piece). Fill in the Reference field."
+msgstr ""
+"L'avis n° 24 exige la référence de la pièce justificative sur chaque "
+"écriture (Ref_Piece). Renseignez le champ Référence."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"Opinion no. 24 rules out any insertion between recorded entries. Check the "
+"date of the entry."
+msgstr ""
+"L'avis n° 24 écarte toute insertion entre des écritures enregistrées. "
+"Vérifiez la date de l'écriture."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Partner without a country"
+msgstr "Tiers sans pays"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Partner without a reference"
+msgstr "Tiers sans référence"
+
+#. module: fec_check_ma
+#: model:ir.model.fields.selection,name:fec_check_ma.selection__fec_check_ma_finding__section__partners
+msgid "Partners"
+msgstr "Tiers"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Payments waiting for reconciliation"
+msgstr "Montants en attente de rapprochement"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Period over but not locked"
+msgstr "Période terminée mais non verrouillée"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Posted entry without a number"
+msgstr "Écriture comptabilisée sans numéro"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Probably a duplicate: merge the partners."
+msgstr "Probable doublon de fiche : fusionnez les fiches."
+
+#. module: fec_check_ma
+#: model_terms:ir.ui.view,arch_db:fec_check_ma.fec_check_ma_run_form
+msgid ""
+"Published by Cabinet EL JOUAIDI, accounting and advisory firm in Casablanca "
+"-"
+msgstr ""
+"Édité par le Cabinet EL JOUAIDI, cabinet d'expertise comptable et de conseil"
+" à Casablanca -"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Recoverable VAT"
+msgstr "TVA récupérable"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Recoverable VAT in the sales journal"
+msgstr "TVA récupérable dans le journal des ventes"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Required account missing from the chart"
+msgstr "Compte indispensable absent du plan"
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_sample__res_id
+msgid "Res"
+msgstr ""
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_sample__res_model
+msgid "Res Model"
+msgstr ""
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_finding__run_id
+msgid "Run"
+msgstr "Exécution"
+
+#. module: fec_check_ma
+#: model_terms:ir.ui.view,arch_db:fec_check_ma.fec_check_ma_run_form
+msgid "Run the check"
+msgstr "Lancer le contrôle"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Sales"
+msgstr "Ventes"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Sales invoice line outside class 7"
+msgstr "Ligne de facture de vente hors classe 7"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Same ICE on several partners"
+msgstr "Même ICE sur plusieurs tiers"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Same reference on several partners"
+msgstr "Même référence sur plusieurs tiers"
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_finding__section
+msgid "Section"
+msgstr "Rubrique"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Set the applicable tax, even at 0%: Odoo uses it for the VAT return."
+msgstr ""
+"Indiquez la taxe applicable, même à 0 % : Odoo s'en sert pour la déclaration"
+" de TVA."
+
+#. module: fec_check_ma
+#: model:ir.model.fields.selection,name:fec_check_ma.selection__fec_check_ma_finding__section__settings
+msgid "Settings"
+msgstr "Paramétrage"
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_finding__severity
+msgid "Severity"
+msgstr "Gravité"
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_finding__severity_rank
+msgid "Severity Rank"
+msgstr ""
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_run__date_from
+msgid "Start Date"
+msgstr "Date de début"
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_run__state
+msgid "Status"
+msgstr "État"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Suppliers"
+msgstr "Fournisseurs"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Suspense account not cleared at the end of the period"
+msgstr "Compte d'attente non soldé à la fin de la période"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Tax identifier of the company missing"
+msgstr "Identifiant fiscal de la société absent"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"The Date_Validation field of the FEC is the date the entries become final. "
+"Set the lock date once the period is closed."
+msgstr ""
+"Le champ Date_Validation du FEC est la date à laquelle les écritures "
+"deviennent définitives. Posez la date de verrouillage une fois la période "
+"clôturée."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "The ICE has 15 digits. Fill it in on the company form."
+msgstr "L'ICE compte 15 chiffres. Renseignez-le dans la fiche de la société."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "The ICE has 15 digits. Fill it in on the partner form."
+msgstr "L'ICE compte 15 chiffres. Renseignez-le dans la fiche du tiers."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "The company does not use the Moroccan chart of accounts"
+msgstr "La société n'utilise pas le plan comptable marocain"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"The first three characters of Num_Compte must be digits of the applicable "
+"chart. Renumber the account."
+msgstr ""
+"Les trois premiers caractères de Num_Compte doivent être des chiffres du "
+"plan applicable. Renumérotez le compte."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"The journal must point to a 514 account for a bank, and a 516 account for "
+"cash."
+msgstr ""
+"Le journal doit pointer vers un compte 514 pour une banque, 516 pour une "
+"caisse."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"The same company would have several subledger accounts. Book the entries on "
+"the company."
+msgstr ""
+"Une même société aurait plusieurs comptes auxiliaires. Passez les écritures "
+"sur la société."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "The start date must be before the end date."
+msgstr "La date de début doit précéder la date de fin."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"The totals of the individual accounts must match the collective accounts "
+"(point 2.5 of opinion no. 24). Set the partner on the line."
+msgstr ""
+"Les totaux des comptes individuels doivent égaler ceux des comptes "
+"collectifs (point 2.5 de l'avis n° 24). Renseignez le tiers sur la ligne."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"These amounts stay on a 511 account: reconcile them with the bank statement."
+msgstr ""
+"Ces montants restent sur un compte 511 : rapprochez-les du relevé bancaire."
+
+#. module: fec_check_ma
+#: model_terms:ir.ui.view,arch_db:fec_check_ma.fec_check_ma_run_form
+msgid ""
+"This check reads your accounting data and does not change it. It does not "
+"replace a review by your accountant, and it does not certify the compliance "
+"of the software."
+msgstr ""
+"Ce contrôle lit vos données comptables sans les modifier. Il ne remplace pas"
+" la revue de votre expert-comptable et ne certifie pas la conformité du "
+"logiciel."
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_run__warning_count
+#: model:ir.model.fields.selection,name:fec_check_ma.selection__fec_check_ma_finding__severity__warning
+msgid "To review"
+msgstr "À vérifier"
+
+#. module: fec_check_ma
+#: model:ir.model.fields.selection,name:fec_check_ma.selection__fec_check_ma_run__state__draft
+msgid "To run"
+msgstr "À lancer"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"Total debits must equal total credits: reset the entry to draft to fix it."
+msgstr ""
+"Le total des débits doit égaler celui des crédits : repassez l'écriture en "
+"brouillon pour la corriger."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid ""
+"Two partners would share the same subledger account. Give each partner its "
+"own reference."
+msgstr ""
+"Deux tiers partageraient le même compte auxiliaire. Attribuez une référence "
+"par tiers."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Unbalanced entry"
+msgstr "Écriture déséquilibrée"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "VAT entry without an expense, income or fixed asset account"
+msgstr "Écriture de TVA sans compte de charge, de produit ou d'immobilisation"
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_sample__value
+msgid "Value"
+msgstr "Valeur"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Vendor bill line outside classes 6 and 2"
+msgstr "Ligne de facture d'achat hors classes 6 et 2"
+
+#. module: fec_check_ma
+#: model:ir.model.fields,field_description:fec_check_ma.field_fec_check_ma_finding__advice
+#: model_terms:ir.ui.view,arch_db:fec_check_ma.fec_check_ma_finding_form
+msgid "What to do"
+msgstr "Que faire"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "Without a country, Odoo can not determine the VAT treatment."
+msgstr "Sans pays, Odoo ne peut pas déterminer le régime de TVA."
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "empty"
+msgstr "vide"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "expense"
+msgstr "charge"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "income"
+msgstr "produit"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "no account"
+msgstr "aucun compte"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "no lock date"
+msgstr "aucun verrouillage"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "other than payable"
+msgstr "autre que « à payer »"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "other than receivable"
+msgstr "autre que « à recevoir »"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "payable"
+msgstr "à payer"
+
+#. module: fec_check_ma
+#. odoo-python
+#: code:addons/fec_check_ma/models/fec_check.py:0
+msgid "receivable"
+msgstr "à recevoir"
+
+#. module: fec_check_ma
+#: model_terms:ir.ui.view,arch_db:fec_check_ma.fec_check_ma_run_form
+msgid "www.eljouaidi.com"
+msgstr "www.eljouaidi.com"
